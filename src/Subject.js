@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import Skills from './Skills';
+import Work from './Work';
+
 
 export default class Subject extends Component{
 	constructor(props){
@@ -13,19 +15,19 @@ export default class Subject extends Component{
 			case 'skills':
 				subj = <Skills />;
 				break;
-			case 'edu':
+			case 'education':
 				subj = <p>la strada</p>;
 				break;
 			case 'work':
-				subj = <p>nullafacente</p>;
+				subj = <Work />;
 				break;
 			default:
-				subj = <p>sobbravo</p>;
+				subj = <p>Fast-learner web application developer, open to learn new web development tools. I’m looking for a young company that uses modern technologies (I like the startup world). I’m a Javascript lover. </p>;
 				break;
 		}
 
 		return (
-			<div>
+			<div className='subject'>
 				{subj}
 			</div>
 		)

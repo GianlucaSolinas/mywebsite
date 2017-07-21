@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { List } from 'semantic-ui-react';
+import { List, Divider, Icon } from 'semantic-ui-react';
 
 import Subject from './Subject';
 
@@ -23,15 +23,16 @@ export default class Content extends Component{
 	render(){
 		return (
 			<div>
-			<List link horizontal size='big' relaxed>
-				<List.Item as='a' active={this.state.currentSubject === 'summary'} onClick={() => this.changeSubject('summary')}> Summary </List.Item>
-				<List.Item as='a' active={this.state.currentSubject === 'skills'} onClick={() => this.changeSubject('skills')}> Skills </List.Item>
-				<List.Item as='a' active={this.state.currentSubject === 'work'} onClick={() => this.changeSubject('work')}> Work experience </List.Item>
-				<List.Item as='a' active={this.state.currentSubject === 'edu'} onClick={() => this.changeSubject('edu')}> Education </List.Item>
-			</List>
-			<Subject>
-				{this.state.currentSubject}
-			</Subject>
+				<List link horizontal size='large' relaxed>
+					<List.Item as='i' active={this.state.currentSubject === 'summary'} onClick={() => this.changeSubject('summary')}> <Icon name='home' link size='large' /> </List.Item>
+					<List.Item as='i' active={this.state.currentSubject === 'skills'} onClick={() => this.changeSubject('skills')}> <Icon name='code' link size='large' /> </List.Item>
+					<List.Item as='i' active={this.state.currentSubject === 'work'} onClick={() => this.changeSubject('work')}> <Icon name='briefcase' link size='large' /> </List.Item>
+					<List.Item as='i' active={this.state.currentSubject === 'education'} onClick={() => this.changeSubject('education')}> <Icon name='student' link size='large' /> </List.Item>
+				</List>
+				<Divider fitted horizontal> {this.state.currentSubject} </Divider>
+				<Subject>
+					{this.state.currentSubject}
+				</Subject>
 			</div>
 		)
 	}

@@ -9,7 +9,7 @@ function Myself(){
   return(
       <div className='myself'>
         <Image avatar size='tiny' src="https://www.gravatar.com/avatar/0f656dcf93a80d0afdcf63bd9f6624bc" />
-        <Header size='large' textAlign='center'>
+        <Header className='header-container' size='large' textAlign='center'>
           <Header.Subheader>
             Hello, I'm 
           </Header.Subheader>
