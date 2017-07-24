@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 
 import Skills from './Skills';
 import Work from './Work';
-
+import Education from './Education';
+import Summary from './Summary';
 
 export default class Subject extends Component{
-	constructor(props){
-		super(props);
-	}
 
 	render(){
 		let subj;
@@ -16,13 +14,13 @@ export default class Subject extends Component{
 				subj = <Skills />;
 				break;
 			case 'education':
-				subj = <p>la strada</p>;
+				subj = <Education />;
 				break;
 			case 'work':
 				subj = <Work />;
 				break;
 			default:
-				subj = <p>Fast-learner web application developer, open to learn new web development tools. I’m looking for a young company that uses modern technologies (I like the startup world). I’m a Javascript lover. </p>;
+				subj = <Summary />;
 				break;
 		}
 

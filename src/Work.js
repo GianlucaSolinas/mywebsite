@@ -4,9 +4,9 @@ import { Container, Divider, List, Header, Icon } from 'semantic-ui-react';
 export default function Work(){
 	return (
 		<div>
-			<Container text>
+			<Container text textAlign='center'>
 				<Header>
-					Frontend developer, <a href='http://www.ad2014.it' target='_blank'>AD2014</a>
+					Frontend developer, <a href='http://www.ad2014.it' target='_blank' rel="noopener noreferrer">AD2014</a>
 					<Header.Subheader>
 						<Icon name='marker'/>Remote
 					</Header.Subheader>
@@ -19,13 +19,13 @@ export default function Work(){
 				</p>
 				<p> 
 					Let.Life
-					<a href='http://let.life/' target='_blank'><Icon name='external' link /></a>
+					<a href='http://let.life/' target='_blank' rel="noopener noreferrer"><Icon name='external' link /></a>
 				</p>
 			</Container>
 			<Divider />
-			<Container text>
+			<Container text textAlign='center'>
 				<Header>
-					Junior fullstack developer, <a href='http://www.weboxstudio.com/' target='_blank'>Webox Studio</a>
+					Junior fullstack developer, <a href='http://www.weboxstudio.com/' target='_blank' rel="noopener noreferrer">Webox Studio</a>
 					<Header.Subheader>
 						<Icon name='marker'/>Ancona, Italy
 					</Header.Subheader>
@@ -39,15 +39,15 @@ export default function Work(){
 				<List relaxed size='small'>
 					<List.Item> 
 						ArToo Campus - web and development course
-						<a href='http://www.artoocampus.it/' target='_blank'><Icon name='external' link /></a>
+						<a href='http://www.artoocampus.it/' target='_blank' rel="noopener noreferrer"><Icon name='external' link /></a>
 					</List.Item>
 					<List.Item> 
 						B2Merger - B2B for trading companies
-						<a href='http://www.b2merger.com/' target='_blank'><Icon name='external' link /></a>
+						<a href='http://www.b2merger.com/' target='_blank' rel="noopener noreferrer"><Icon name='external' link /></a>
 					</List.Item>
 					<List.Item> 
 						Engaging Project - dashboard and tools of European Project
-						<a href='http://app.engaging-project.eu/login/  ' target='_blank'><Icon name='external' link /></a>
+						<a href='http://app.engaging-project.eu/login/  ' target='_blank' rel="noopener noreferrer"><Icon name='external' link /></a>
 					</List.Item>
 				</List>
 

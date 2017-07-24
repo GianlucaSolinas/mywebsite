@@ -16,6 +16,10 @@ body {
 	margin-top: 0px !important;
 }
 
+.padding{
+	padding: 8px;
+}
+
 .footer{
 	position: fixed !important;
 	right: 0;
@@ -26,15 +30,21 @@ body {
 }
 
 .progress-container{
-	width: 50%;
-	display: flex;
-	flex-direction: column;
+	width: 30% !important;
+	text-align: left;
+}
+
+.skills{
+	display: inline-flex;
+	justify-content: flex-start;
+	flex-direction: row;
 }
 
 .subject{
 	padding: 8px;
 	overflow-y: auto;
-	height: 350px;
+	height: 370px;
+	text-align: center;
 }
 
 .icon-container{

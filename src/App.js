@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Icon, Image } from 'semantic-ui-react';
-import './App.css';
+import { Header, Image } from 'semantic-ui-react';
 
 import Footer from './Footer';
 import Content from './Content';
@@ -24,7 +23,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className='header'>
+        <div>
           <Myself />
         </div>
         <Content />

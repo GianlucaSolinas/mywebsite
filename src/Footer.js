@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Segment, Icon, Flag } from 'semantic-ui-react';
+import React from 'react';
+import { Segment, Icon } from 'semantic-ui-react';
 
 import './Footer';
 
