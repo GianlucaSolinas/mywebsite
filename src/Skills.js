@@ -7,7 +7,7 @@ export default function Skills(){
 			<Container className='skills'>
 			<Segment.Group horizontal>
 				<Segment raised className='progress-container'>
-					<Label ribbon color='red'>Programming languages</Label>
+					<Label ribbon color='red'>Languages</Label>
 					<div className='padding'>
 						<Progress percent={95} size='tiny' label='Javascript (ES6)' color='red' />
 					</div>
@@ -56,7 +56,10 @@ export default function Skills(){
 						<Progress percent={75} size='tiny' label='MongoDB' color='orange' />
 					</div>
 					<div className='padding'>
-						<Progress percent={75} size='tiny' label='npm' color='orange' />
+						<Progress percent={80} size='tiny' label='npm' color='orange' />
+					</div>
+					<div className='padding'>
+						<Progress percent={60} size='tiny' label='Google Firebase' color='orange' />
 					</div>
 				</Segment>
 			</Segment.Group>

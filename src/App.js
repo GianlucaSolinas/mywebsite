@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Image } from 'semantic-ui-react';
+import { Header, Image, Button } from 'semantic-ui-react';
 
 import Footer from './Footer';
 import Content from './Content';
