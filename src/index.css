@@ -30,14 +30,12 @@ body {
 }
 
 .progress-container{
-	width: 30% !important;
+	width: 20% !important;
 	text-align: left;
 }
 
 .skills{
-	display: inline-flex;
-	justify-content: flex-start;
-	flex-direction: row;
+  text-align: left;
 }
 
 .subject{

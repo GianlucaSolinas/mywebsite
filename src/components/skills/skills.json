@@ -1,0 +1,92 @@
+{
+  "skills": [
+    {
+      "name": "Languages",
+      "color": "red",
+      "topics": [
+        {
+          "name": "HTML5/CSS3",
+          "percent": "95"
+        },
+        {
+          "name": "Javascript (ES6)",
+          "percent": "95"
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "color": "blue",
+      "topics": [
+        {
+          "name": "AngularJS (1.x)",
+          "percent": "85"
+        },
+        {
+          "name": "ReactJS",
+          "percent": "80"
+        },
+        {
+          "name": "Angular Material",
+          "percent": "80"
+        },
+        {
+          "name": "Bootstrap",
+          "percent": "80"
+        },
+        {
+          "name": "Semantic UI",
+          "percent": "75"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "color": "teal",
+      "topics": [
+        {
+          "name": "Meteor.js",
+          "percent": "80"
+        },
+        {
+          "name": "Node.js",
+          "percent": "75"
+        },
+        {
+          "name": "Express.js",
+          "percent": "60"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "color": "orange",
+      "topics": [
+        {
+          "name": "Git (Github, BitBucket)",
+          "percent": "90"
+        },
+        {
+          "name": "Agile development",
+          "percent": "90"
+        },
+        {
+          "name": "Linux terminal",
+          "percent": "70"
+        },
+        {
+          "name": "MongoDB",
+          "percent": "75"
+        },
+        {
+          "name": "npm",
+          "percent": "85"
+        },
+        {
+          "name": "Google Firebase",
+          "percent": "60"
+        }
+      ]
+    }
+  ]
+}

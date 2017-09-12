@@ -14,7 +14,7 @@ let getWork = function () {
   return work.map((item, index) => {
     return (
       <div key={index}>
-        <Container text textAlign='center'>
+        <Container text textAlign='left'>
           <Header>
             {item.role},
             <a href={item.companyLink} target='_blank' rel='noopener noreferrer'>{item.company}</a>
@@ -25,9 +25,9 @@ let getWork = function () {
               <Icon name='calendar' />{item.when}
             </Header.Subheader>
           </Header>
-          <p>
+          <Container text>
             {item.description}
-          </p>
+          </Container>
           <List relaxed size='small'>
             {getPortfolio(item.portfolio)}
           </List>
