@@ -1,0 +1,48 @@
+{
+  "work": [
+    {
+      "role": "Web developer",
+      "company": "IC Filling Systems",
+      "companyLink": "https://www.icfillingsystems.com/",
+      "where": "Edinburgh, UK",
+      "when": "08/2017",
+      "description": "Wordpress website development. Modularized content and converted theme from Avada to Beaver Builder, improved SQL queries performance."
+    },
+    {
+      "role": "Frontend developer",
+      "company": "AD 2014",
+      "companyLink": "http://www.ad2014.it",
+      "where": "Remote",
+      "when": "10/2016 - 02/2017",
+      "description": "Developed and improved UI using modern web frameworks such as AngularJS and Bootstrap. We interfaced to backend(NodeJS) using APIs. MongoDB database.",
+      "portfolio": [
+        {
+          "text": "Let.Life",
+          "link": "http://let.life/"
+        }
+      ]
+    },
+    {
+      "role": "Junior fullstack developer",
+      "company": "Webox Studio",
+      "companyLink": "http://www.weboxstudio.com/",
+      "where": "Ancona, Italy",
+      "when": "01/2016 - 07/2016",
+      "description": "Created several web applications, using MeteorJS to build them from stratch. AngularJS mixed with Angular Material for UI components.",
+      "portfolio": [
+        {
+          "text": "ArToo Campus - web and development course",
+          "link": "http://www.artoocampus.it/"
+        },
+        {
+          "text": "B2Merger - B2B for trading companies",
+          "link": "http://www.b2merger.com/"
+        },
+        {
+          "text": "Engaging Project - dashboard and tools of European Project",
+          "link": "http://app.engaging-project.eu/login/"
+        }
+      ]
+    }
+  ]
+}
