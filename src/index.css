@@ -48,7 +48,12 @@ body {
 .icon-container{
 	display: inline-flex;
 	width: 70%;
-	justify-content: space-around;
+	justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icon-container>a {
+  padding: 0px 8px;
 }
 
 .myself{
